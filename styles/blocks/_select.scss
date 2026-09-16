@@ -1,0 +1,62 @@
+@use '../helpers' as *;
+
+.select {
+  &__original-control {
+    @include mobile-above {
+      @include visually-hidden;
+    }
+  }
+
+  &__body {
+    position: relative;
+
+    @include mobile {
+      @include visually-hidden;
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: rem(6);
+    transition-duration: var(--transition-duration);
+
+    @include laptop {
+      column-gap: rem(4);
+    }
+
+    &.is-expanded {
+      &::after {
+        rotate: -180deg;
+      }
+    }
+
+    &::after {
+      --size: #{rem(24)};
+
+      @include square(var(--size));
+
+      content: '';
+      background: url('../../icons/arrow-down.svg') center/contain no-repeat;
+      transition-duration: var(--transition-duration);
+
+      @include laptop {
+        --size: #{rem(20)};
+      }
+    }
+  }
+
+  &__drop-down {
+    position: absolute;
+    top: calc(100% + #{rem(4)});
+
+    &.is-on-the-left-side {
+      left: 0;
+    }
+
+    &.is-on-the-right-side {
+      right: 0;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@use 'normalize';
+@use 'font';
+@use 'varibles';
+@use 'utils';
+@use 'global';
+
+@use 'blocks/icon';
+@use 'blocks/header';
+@use 'blocks/button';
+@use 'blocks/logo';
+@use 'blocks/burger-button';
+
+@use 'blocks/badge';
+@use 'blocks/soc1als';
+@use 'blocks/footer';
+
+@use 'blocks/metrix';
+@use 'blocks/resorces-preview';
+@use 'blocks/advantage-card';
+@use 'blocks/team';
+@use 'blocks/hero';
+
+@use 'blocks/tag';
+@use 'blocks/section';
+@use 'blocks/card';
+@use 'blocks/tile';
+@use 'blocks/list';
+
+@use 'blocks/tabs';
+@use 'blocks/person-card';
+@use 'blocks/blog-actions';
+@use 'blocks/blog-card';
+
+@use 'blocks/download-info';
+
+@use 'blocks/bordered-grid';
+@use 'blocks/review-card';
+@use 'blocks/rating-view';
+
+@use 'blocks/about-card';
+@use 'blocks/about';
+
+@use 'blocks/news';
+@use 'blocks/news-card';
+@use 'blocks/summary';
+@use 'blocks/hero-alt';
+
+@use 'blocks/video-player';
+@use 'blocks/video-card';
+
+@use 'blocks/table-of-contents';
+@use 'blocks/blog-details';
+
+@use 'blocks/expandable-content';
+@use 'blocks/report-card';
+
+@use 'blocks/contacts-card';
+@use 'blocks/select';
+@use 'blocks/field';
+@use 'blocks/checkbox';
+@use 'blocks/feedback-form';
+@use 'blocks/accordion';
+@use 'blocks/accordion-group';
+@use 'blocks/contacts';
