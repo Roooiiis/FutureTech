@@ -32,6 +32,10 @@
       color: var(--color-dark-40);
     }
 
+    &:user-invalid {
+      border-color: var(--color-red);
+    }
+
     @include laptop {
       height: rem(53);
       padding-inline: rem(16);

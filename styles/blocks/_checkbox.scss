@@ -27,6 +27,10 @@
     border: var(--border);
     border-radius: rem(4);
 
+    &:user-invalid {
+      border-color: var(--color-red);
+    }
+
     @include square(var(--size));
 
     @include laptop {
