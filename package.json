@@ -11,6 +11,7 @@
     "sass-watch": "sass --watch ."
   },
   "devDependencies": {
-    "sass": "^1.103.1"
+    "sass": "^1.103.1",
+    "typescript": "^7.0.2"
   }
 }
